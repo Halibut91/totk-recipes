@@ -1,0 +1,190 @@
+@font-face {
+    font-family: zelda-font;
+    src: url(./fonts/zelda-font.ttf);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #006c3b;
+    background-image: url(./images/backgrounds/main.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: zelda-font, Luminari, fantasy;
+}
+
+.header {
+    padding: 16px;
+    height: 2em;
+    color: #fbf5dc;
+    background: #47d49a00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.header li {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.header a {
+    height: 100%;
+    text-decoration: none;
+    color: #fbf5dc;
+}
+
+.header img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.recipes {
+    padding: 48px 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.recipes h1 {
+    margin: 0;
+    padding: 0;
+    color: #fbf5dc;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.cookbook-entry {
+    border: 6px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 32px;
+    border-color: #6b5e24d3;
+    background: #bbae7ed3;
+    color: #4f4305d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.35em;
+}
+
+.cookbook-entry * {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.cookbook-entry ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.heat {
+    border-color: #8c2f2fd3;
+    background: #d68585d3;
+    color: #632121d3;
+}
+
+.spring {
+    border-color: #2f678cd3;
+    background: #85b7d6d3;
+    color: #214963d3;
+}
+
+.cold {
+    border-color: #2f858cd3;
+    background: #85d1d6d3;
+    color: #215e63d3;
+}
+
+.elixir {
+    border-color: #672f8cd3;
+    background: #b785d6d3;
+    color: #492163d3;
+}
+
+.health {
+    color: #ff6635d3;
+}
+
+.energizing {
+    color: #00f15ad3;
+}
+
+.hearty {
+    color: #ffff00de;
+}
+
+.enduring {
+    color: #ffff00d3;
+}
+
+.sunny {
+    color: #ffff00d3;
+}
+
+.gloom-resistance {
+    color: #00cfbed3;
+}
+
+.heat-resistance {
+    color: #ff9800d3;
+}
+
+.cold-resistance {
+    color: #91f7ffd3;
+}
+
+.shock-resistance {
+    color: #efef00d3;
+}
+
+.flame-guard {
+    color: #ff3d3dd3;
+}
+
+.attack-up {
+    color: #fffde3d3;
+}
+
+.defense-up {
+    color: #fffde3d3;
+}
+
+.speed-up {
+    color: #0089ffd3
+}
+
+.footer {
+    text-align: center;
+    color: #fbf5dc;
+    font-size: 1.2em;
+}
+
+.footer p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer a {
+    color: #fbf5dc;
+    text-decoration: none;
+}
